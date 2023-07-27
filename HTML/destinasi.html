@@ -1,0 +1,518 @@
+<!--
+Kelompok 02
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../Image/w.jpg">
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <link href="../Bootstrap/bootstrap-grid.css" rel="stylesheet">
+    <link href="../Bootstrap/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="../Bootstrap/css/glyphicon.css" rel="stylesheet">
+    <script src="../jquery/jquery-3.5.1.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Javascript/index.js"></script>
+	<script src="../Javascript/dialogWisata.js"></script>
+    <script src="https://kit.fontawesome.com/5d064eb21d.js" crossorigin="anonymous"></script>
+   <link rel="shortcut icon" type="image/x-icon" href="../Image/LogoToba.jpeg">
+    <title>Wisata Toba Samosir/Destinasi</title>
+</head>
+
+<body>
+<div class="Limit1">
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-dark "id="bgheader">
+            <a href="Home.html">
+                <img src="../Image/Horas Toba2.png" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a id="warnafitur" class="nav-link" href="Home.html"><i class="fas fa-home"></i>&emsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="warnafitur" class="active" href="destinasi.html"><i class="fas fa-suitcase-rolling"></i>&emsp;Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="warnafitur" class="nav-link" href="testimoni.html"><i class="fas fa-search"></i>&emsp;Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="warnafitur" class="nav-link" href="about.html"><i class="fas fa-id-card"></i>&emsp;Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>
+     <!--jumbotron-->
+     <section class="jumbotron jumbotron-fluid text-center text-white">
+        <div class="container">
+          <h1 id="juduldestinasi"class="display-4">WISATA TOBA SAMOSIR</h1>
+		  <p id="ketdestinasi"> Destinasi Wisata Yang berada di kawasan Toba Samosir</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+            <path
+              fill="#EEEBDD"
+              fill-opacity="100"
+              d="M0,32L80,69.3C160,107,320,181,480,181.3C640,181,800,107,960,80C1120,53,1280,75,1360,85.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+              ></path>
+          </svg>
+      </section>
+
+    <section class="indexSection">
+        <div class="container" id="seContainer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="../Image/bulbul.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                        <div class="card-body" elisa-kode="edit" style="background-color: #D8B6A4;">
+                            <h5 class="card-title">Pantai Bulbul</h5>
+                            <p class="card-text">Pantai Lumban Bulbul adalah salah satu daya tarik wisata<span class="elisakode">...</span><span class="more" style="display: none;">  yang masuk ke dalam situs
+							geopark kawasan Danau Toba dan salah satu destinasi prioritas pemerintah. Pantai Lumban
+							Bulbul memiliki potensi wisata alam dan wisata buatan manusia
+							</p><h4 style="font-face:Calibri; font-size:20px; color:#630000;"onclick="readMore('edit')" class="elisakodemantap">Read more</h4>
+							<div class="container" id="fotContainer">
+							<ul>
+							<li class="iconbl"><a href="RMlumbanbul2.html" target="blink"><i class="fas fa-utensils"style="color:#630000;"title="Tap For More Info about restaurant near Pantai Bulbul"></i></a></li>
+							<li class="iconbl"><a href="hotellumbanbulbul.html" target="blink"><i class="fas fa-hotel"style="color:#630000;"title="Tap For More Info about Hotel near Pantai Bulbul"></i></i></a></li>
+							<li class="iconbl"id="btnShowPopup0"><i class="fas fa-map-marker-alt"style="color:#630000;"title="Tap For More Info about Location Pantai Bulbul"></i></i></a></li>
+							<li>
+							<div class="container" id="containerBtn">
+                                <!-- Modal Popup -->
+                                <div id="MyPopup0" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div style="background-color:#EEEBDD;"class="modal-header">
+											<h2 style="font-family:Roboto Slab; color:black;">Lokasi Pantai Bulbul</h2>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                &times;</button>
+                                            </div>
+                                            <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7972.971942995945!2d99.06795807027468!3d2.341890213083924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e0471e006a077%3A0x8eafb20a9bb42250!2sLumban%20Bulbul%2C%20Balige%2C%20Toba%20Samosir%20Regency%2C%20North%20Sumatra!5e0!3m2!1sen!2sid!4v1637250097051!5m2!1sen!2sid" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div style="background-color:#EEEBDD;" class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							</li>
+							</ul>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="../Image/silintong.png" class="card-img-top" alt="..." style="height: 300px;">
+                        <div class="card-body" elisa-kode="masak" style="background-color: #D8B6A4;">
+                            <h5 class="card-title">Pantai Silintong</h5>
+                            <p class="card-text">Lumban Silitong merupakan salah satu tempat destinasi di Toba<span class="elisakode">...</span><span class="more" style="display: none;">  Samosiryang dimana wilaya berdekatan dengan pinggiran Danau Toba sehingga banyak pantai pantai yang dimana kita dapat melihat keindahan Danau Toba dari pantai pantai di dekat wilaya Lumban Silitonga.</p><h4 style="font-face:Courier New; font-size:20px; color:#630000;"onclick="readMore('masak')" class="elisakodemantap">Read more</h4>
+							<div class="container" id="fotContainer">
+							<ul>
+							<li class="iconbl"><a href="RMlumbansilintong.html" target="blink"><i class="fas fa-utensils"style="color:#630000;"title="Tap For More Info about restaurant near Pantai Silintong"></i></a></li>
+							<li class="iconbl"><a href="hotellumbangsilintong.html" target="blink"><i class="fas fa-hotel"style="color:#630000;"title="Tap For More Info about Hotel near Pantai Silintong"></i></i></a></li>
+							<li class="iconbl"id="btnShowPopup1"><i class="fas fa-map-marker-alt"style="color:#630000;"title="Tap For More Info about Location Pantai Silintong"></i></i></a></li>
+							<li>
+							<div class="container" id="containerBtn">
+                                <!-- Modal Popup -->
+                                <div id="MyPopup1" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div style="background-color:#EEEBDD;" class="modal-header">
+											<h2 style="font-family:Roboto Slab; color:black;">Lokasi Pantai Silintong</h2>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                &times;</button>
+                                            </div>
+                                            <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15945.958840987543!2d99.03572771130591!3d2.3405759126205865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e04904126233b%3A0xa1e267f4e387414b!2sLumban%20Silintong%2C%20Balige%2C%20Toba%20Samosir%20Regency%2C%20North%20Sumatra!5e0!3m2!1sen!2sid!4v1638241452473!5m2!1sen!2sid" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div style="background-color:#EEEBDD;" class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							</li>
+							</ul>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="../Image/pasifik.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                        <div class="card-body" elisa-kode="pasif"style="background-color: #D8B6A4;">
+                            <h5 class="card-title">Pantai Parparean</h5>
+                            <p class="card-text">Pantai Pasir Putih di Desa Parparean merupakan objek <span class="elisakode">...</span><span class="more" style="display: none;">  wisata yang memiliki pemandangan alam 
+							yang sangat indah yang tak kalah dengan Pulau Bali.Panorama yang disajikan pantai di danau ini gak kalah dari pantai di pinggir laut. Apalagi pantai yang ada di kawasan danau toba Airnya tidak berasa asin. 
+							</p><h4 style="font-face:Courier New; font-size:20px; color:#630000;"onclick="readMore('pasif')" class="elisakodemantap">Read more</h4>
+							<div class="container" id="fotContainer">
+							<ul>
+							<li class="iconbl"><a href="RMpantaipasifik.html" target="blink"><i class="fas fa-utensils"style="color:#630000;"title="Tap For More Info about restaurant near Pantai Parparean"></i></a></li>
+							<li class="iconbl"><a href="hotelpantaipasifik.html" target="blink"><i class="fas fa-hotel"style="color:#630000;"title="Tap For More Info about Hotel near Pantai Parparean"></i></i></a></li>
+							<li class="iconbl"id="btnShowPopup2"><i class="fas fa-map-marker-alt"style="color:#630000;"title="Tap For More Info about Location Pantai Parparean"></i></i></a></li>
+							<li>
+							<div class="container" id="containerBtn">
+                                <!-- Modal Popup -->
+                                <div id="MyPopup2" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div style="background-color:#EEEBDD;" class="modal-header">
+											<h2 style="font-family:Roboto Slab; color:black;">Lokasi Pantai Parparean</h2>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                &times;</button>
+                                            </div>
+                                            <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15944.900171658706!2d99.14032621130455!3d2.431862660135193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031ffd451ee5d77%3A0x4329e9a7d027afb0!2sPantai%20Pasir%20Putih%20Parparean!5e0!3m2!1sen!2sid!4v1638241481955!5m2!1sen!2sid" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div style="background-color:#EEEBDD;" class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							</li>
+							</ul>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="../Image/tb.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                         <div class="card-body" elisa-kode="tb" style="background-color: #D8B6A4;">
+                            <h5 class="card-title">TB Silalahi Center</h5>
+                            <p class="card-text">Museum Pribadi TB. Silalahi atau yang diberi nama Museum Jejak Langkah dan Sejarah TB<span class="elisakode">...</span><span class="more" style="display: none;"> . Silalahi yang dibangun sebagai wadah untuk memotivasi generasi muda untuk terus meraih cita-cita dengan melihat pengalaman TB. Silalahi mulai dari kecil sebagai anak pengembala kerbau sampai menjadi seorang Jenderal.</p><h4 style="font-face:Courier New; font-size:20px; color:#630000;"onclick="readMore('tb')" class="elisakodemantap">Read more</h4>
+							<div class="container" id="fotContainer">
+							<ul>
+							<li class="iconbl"><a href="RMTBsilalahi.html" target="blink"><i class="fas fa-utensils"style="color:#630000;"title="Tap For More Info about restaurant near TB Silalahi Center"></i></a></li>
+							<li class="iconbl"><a href="hotelTBSILALAHI.html" target="blink"><i class="fas fa-hotel"style="color:#630000;"title="Tap For More Info about Hotel near TB Silalhi Center"></i></i></a></li>
+							<li class="iconbl"id="btnShowPopup3"><i class="fas fa-map-marker-alt"style="color:#630000;"title="Tap For More Info about Location TB.Silalahi Center"></i></i></a></li>
+							<li>
+							<div class="container" id="containerBtn">
+                                <!-- Modal Popup -->
+                                <div id="MyPopup3" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div style="background-color:#EEEBDD;" class="modal-header">
+											<h2 style="font-family:Roboto Slab; color:black;">Lokasi TB.Silalahi Center</h2>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                &times;</button>
+                                            </div>
+                                            <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.5106254054967!2d99.04622811379113!3d2.3332098582792447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30314bcb41946ac1%3A0xb21059a51abb5794!2sMuseum%20Batak%20TB%20Silalahi%20Center!5e0!3m2!1sen!2sid!4v1638241658133!5m2!1sen!2sid" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div style="background-color:#EEEBDD;" class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							</li>
+							</ul>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                       <img src="../Image/tamed.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                        <div class="card-body"elisa-kode="tamed" style="background-color: #D8B6A4;">
+                            <h5 class="card-title">Taman Eden 100</h5>
+                            <p class="card-text">Taman Eden 100 adalah wisata dengan nuansa alami, pada saat pembentukannya ditanami oleh <span class="elisakode">...</span><span class="more" style="display: none;">100 jenis tanaman. Taman Eden 100 terletak di Lumban Julu, Kabupaten Toba Samosir, Sumut.
+							Kawasan hutan terbuka dengan luas mencapai 40 hektare ini sangat cocok untuk dijadikan alternatif ekowisata paket lengkap, karena ada banyak spot dan kegiatan yang bisa dilakukan di kawasan ini.</p><h4 style="font-face:Courier; font-size:20px; color:#630000;"onclick="readMore('tamed')" class="elisakodemantap">Read more</h4>
+							<div class="container" id="fotContainer">
+							<ul>
+							<li class="iconbl"><a href="RMtamaneden100.html" target="blink"><i class="fas fa-utensils"style="color:#630000;"title="Tap For More Info about restaurant near Taman Eden 100"></i></a></li>
+							<li class="iconbl"><a href="hoteltamaneden100.html" target="blink"><i class="fas fa-hotel"style="color:#630000;"title="Tap For More Info about Hotel near Taman Eden 100"></i></i></a></li>
+							<li class="iconbl"id="btnShowPopup4"><i class="fas fa-map-marker-alt"style="color:#630000;"title="Tap For More Info about Location Taman Eden 100"></i></i></a></li>
+							<li>
+							<div class="container" id="containerBtn">
+                                <!-- Modal Popup -->
+                                <div id="MyPopup4" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div style="background-color:#EEEBDD;" class="modal-header">
+											<h2 style="font-family:Roboto Slab; color:black;">Lokasi Taman Eden 100</h2>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                &times;</button>
+                                            </div>
+                                            <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.73913457531!2d99.03669911379092!3d2.5911038570544864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031f07396d119b9%3A0x5a46f0ab2efec853!2sTaman%20Eden%20100%20Tobasa!5e0!3m2!1sen!2sid!4v1638242256355!5m2!1sen!2sid" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div style="background-color:#EEEBDD;" class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							</li>
+							</ul>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                       <img src="../Image/bukgib.jpeg" class="card-img-top" alt="..." style="height: 300px;">
+                        <div class="card-body" elisa-kode="bukgib" style="background-color: #D8B6A4;">
+                            <h5 class="card-title">Bukit Gibeon Sibisa</h5>
+                            <p class="card-text">Bukit Gibeon merupakan salah satu destinasi wisata yang berada di desa Sibisa<span class="elisakode">...</span><span class="more" style="display: none;"> , Kabupaten Toba Samosir yang dapat ditempuh hanya 20 Menit saja dari Parapat. Di daerah Bukit ini tersedia beberapa bangunan yang 
+							diperuntukkan untuk wisata rohani (agenda seminari), dan ada juga terdapat sebuah kolam pemandian yang di design 
+							unik dan menarik dan pastinya sangat segar untuk masyarakat umum.</p><h4 style="font-face:'Courier New'; font-size:20px; color:#630000;"onclick="readMore('bukgib')" class="elisakodemantap">Read more</h4>
+							<div class="container" id="fotContainer">
+							<ul>
+							<li class="iconbl"><a href="RMbukitgibeon.html" target="blink"><i class="fas fa-utensils"style="color:#630000;"title="Tap For More Info about restaurant near Bukit Gibeon Sibisa"></i></a></li>
+							<li class="iconbl"><a href="hotelbukitgibeon.html" target="blink"><i class="fas fa-hotel"style="color:#630000;"title="Tap For More Info about Hotel near Bukit Gibeon Sibisa"></i></i></a></li>
+							<li class="iconbl"id="btnShowPopup5"><i class="fas fa-map-marker-alt"style="color:#630000;"title="Tap For More Info about Location Bukit Gibeon"></i></i></a></li>
+							<li>
+							<div class="container" id="containerBtn">
+                                <!-- Modal Popup -->
+                                <div id="MyPopup5" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div style="background-color:#EEEBDD;" class="modal-header">
+											<h2 style="font-family:Roboto Slab; color:black;">Lokasi Bukit Gibeon Sibisa</h2>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                &times;</button>
+                                            </div>
+                                            <div>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.7416085847167!2d98.9945794137909!3d2.5903178570583827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031eff6bc5ffcf7%3A0x724fba5dc425055b!2sBUKIT%20GIBEON%20(YAPIM%20TARUNA)!5e0!3m2!1sen!2sid!4v1638242558282!5m2!1sen!2sid" width="480" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                            </div>
+                                            <div style="background-color:#EEEBDD;" class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                                                Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							</li>
+							</ul>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </section>
+<div class="Limit1">
+    <div class="footer">
+        <div class="container" id="fotContainer">
+            <ul>
+                <li id="iconFooter"><a href="https://www.youtube.com/channel/UCNwwZYfFnLQHHFSraEtSU3A" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li id="iconFooter"><a href="https://twitter.com/topiktobasa" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li id="iconFooter"><a href="https://www.instagram.com/danau_tobasamosir/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li id="iconFooter"><a href="https://web.facebook.com/DanauTobaSamosirIndonesia" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+        <p id="pFooter">&copy; 2021 D3TI | Kelompok 02</p>
+    </div>
+</div>
+	<script>
+	  $( function() {
+		$( document ).tooltip();
+	  } );
+	  </script>
+	<script>
+		   function readMore(elisabisa) {
+			let elisakode = document.querySelector(`.card-body[elisa-kode="${elisabisa}"] .elisakode`);
+			let moreText = document.querySelector(`.card-body[elisa-kode="${elisabisa}"] .more`);
+			let btnText = document.querySelector(`.card-body[elisa-kode="${elisabisa}"] .elisakodemantap`);
+
+			if (elisakode.style.display === "none") {
+				elisakode.style.display = "inline";
+				btnText.textContent = "Read more";
+				moreText.style.display = "none";
+			} else {
+				elisakode.style.display = "none";
+				btnText.textContent = "Read less";
+				moreText.style.display = "inline";
+			}
+		}
+    </script>
+</body>
+<style>
+	.col-md-4:hover .card-mb-3{
+            background:#630000;
+            border-radius: auto;
+	}
+    section.cards {
+        margin: 0 auto;
+        display: grid;
+        grid-auto-flow: row dense;
+        grid-template-columns: repeat(3, 256px);
+        grid-template-rows: repeat(12, 196px);
+        grid-gap: 16px;
+    }
+    .card {
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.05);
+        transition: all 0.25s ease;
+    }
+    
+    .vertical {
+        flex-direction: column;
+        grid-row: span 2;
+        grid-column: span 1;
+    }
+    
+    .horizontal {
+        flex-direction: row;
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+    
+    .reverse-horizontal {
+        flex-direction: row-reverse;
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+    
+    .card {
+        border-radius: 0.5em;
+    }
+    
+    .horizontal.not.reverse img {
+        border-top-left-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+    }
+    
+    .horizontal-reverse img {
+        border-top-right-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+    }
+    
+    .vertical img {
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+    }
+    
+    .horizontal .card__img,
+    .reverse-horizontal .card__img {
+        height: 100%;
+    }
+    
+    .vertical .card__img {
+        width: 100%;
+    }
+    
+    .card__content {
+        padding: 16px;
+    }
+    
+    .card__type {
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        opacity: 0.9;
+        color: palevioletred;
+        padding-bottom: 0.5em;
+    }
+    
+    .card__title {
+        font-size: 18px;
+        opacity: 0.8;
+        font-weight: 700;
+        padding-bottom: 0.5em;
+        transition: all 0.25s ease;
+    }
+    
+    .card__date {
+        font-size: 14px;
+        padding-bottom: 0.5em;
+        opacity: 0.3;
+    }
+    
+    .card__time-to-read {
+        font-style: italic;
+    }
+    
+    .card__excerpt {
+        font-size: 16px;
+        padding-bottom: 0.5em;
+    }
+    
+    .card__tags {
+        margin-top: auto;
+    }
+	.card-body{
+	border:solid #630000;
+	border-width:4px 4px 4px 4px;
+
+	}
+	div img{
+	border:solid #F0FFF0;
+	border-width:15px 10px 0px 10px;
+	
+	}
+    
+    .tag {
+        display: inline;
+        background: papayawhip;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        font-size: 12px;
+        color: palevioletred;
+        user-select: none;
+        cursor: pointer;
+    }
+	.logo{
+	border:0px solid #F0FFF0;
+    }
+    .tag:hover {
+        background: darken(papayawhip, 5%);
+    }
+    
+    .tag:active {
+        background: darken(papayawhip, 10%);
+    }
+    
+    .tag i {
+        margin-right: 4px;
+    }
+    
+    .card {
+        height: 100%;
+        padding-bottom: 10%;
+        background: transparent;
+        border: 0;
+    }
+    
+    .bawah {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+	
+
+</style>
+</html>

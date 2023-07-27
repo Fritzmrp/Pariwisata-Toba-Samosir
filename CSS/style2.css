@@ -1,0 +1,213 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+}
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.layar-dalam {
+    width: 1300px;
+    margin: auto;
+}
+.layar-dalam a {
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.container .logo {
+    padding-top: 5px;
+    width: 40px;
+}
+img {
+    width: 200px;
+    height: 100px;
+  
+ }
+.layar-penuh {
+    width: 100%;
+}
+nav {
+    z-index: 100;
+    text-align: center;
+    position: fixed;
+    line-height: 60px;
+    width: 100%;
+    border-radius: 4px;
+}
+nav .putih {
+    background-color: #fff;
+}
+nav .container {
+    float: left;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+}
+nav .menu {
+    float: right;
+    height: 60px;
+    max-width: 600px;
+}
+nav .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav .menu ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+nav ul li a {
+    color: #fff;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+nav .menu ul li button:hover {
+    background: #8000003f;
+    color: rgb(255, 255, 255);
+}
+nav .menu ul li button {
+    background-color: rgba(121, 121, 121, 0.13);
+    border: 2px rgba(247, 246, 246, 0) solid;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+}
+
+/*Pengaturan header*/
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+header .intro {
+    z-index: 100;
+    color: #EEEBDD;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+header .intro h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+	font-family: Lucida Handwriting;
+}
+header .intro h5 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+	font-family: Comic Sans MS;
+}
+.tombol {
+    background-color: #11101050;
+    height: 40px;
+    line-height: 42px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 50%;
+    z-index: -1;
+}
+.tombol-menu {
+    padding: 20px 0 20px 0;
+    position: absolute;
+    top: 1,7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.tombol-menu .garis {
+    height: 3px;
+    background-color: rgb(253, 252, 252);
+}
+@media screen and (max-width: 991.98px) {
+    .layar-dalam {
+        width: 90%;
+    }
+    nav .menu ul {
+        display: none;
+        margin-top: 90px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    nav .menu ul li {
+        width: 100%;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        background-color: #800000;
+        line-height: 40px;
+    }
+    nav .menu ul li a {
+        color: rgb(0, 0, 0);
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    header .intro h1 {
+        font-size: 2.7em;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    header .intro h5 {
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+    }
+}
+#judul{
+	font-family:"Roboto Slab";
+	color:#EEEBDD;
+	font-weight:bold;
+	font-size: 20px;
+}
+#fitur{
+	font-family:"Roboto Slab";
+	color:#EEEBDD;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+#pFooter {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+

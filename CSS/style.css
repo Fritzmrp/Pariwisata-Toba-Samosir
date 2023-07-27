@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i");
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #EEEBDD;
+  background-size: cover;
+}
+
+.h1-responsive {
+  font-family: "Castoro", serif;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.card-body {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 25%;
+  background: #b22222;
+}
+#class {
+  background: #dcdcdc;
+  height:100px;
+  border:solid #630000;
+  border-width:0px 4px 4px 0px;
+ box-shadow: 10px 10px 10px 0px #888;
+}
+.card-body{
+border:solid #630000;
+border-width:4px 4px 0px 4px;
+border-radius: 10px 0px 0px 0px ; 
+
+}
+
+.card-img{
+	border: solid #F0FFF0;
+	border-width:4px 10px 15px 4px;
+	border-radius:70px 0px 0px 70px;
+	height:300px;
+	box-shadow: 0 0 10px 10px #888;
+	
+}
+/*Bagian Header*/
+
+.jumbotron {
+  padding-top: 1rem;
+  padding-bottom: 0%;
+  background-color: #630000;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+#search {
+  color: white;
+  border-color: white;
+}
+
+/*Bagian image selamat datang*/
+
+.row h1 {
+  font-family: "Roboto Slab";
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: -0.35rem;
+  text-transform: capitalize;
+  color: #630000;
+}
+#judul {
+  text-align: center;
+  display: block;
+  font-size: 35px;
+  margin-top: -3rem;
+  margin-bottom: 0;
+  margin-left: 23rem;
+  margin-right: 10rem;
+  font-weight: bold;
+}
+.row h5 {
+  font-family: "Marck Script";
+  display: block;
+  font-size: 2rem;
+  color: black;
+  margin-left: -0.35rem;
+  text-transform: capitalize;
+}
+.artikel {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  color: palevioletred;
+  padding-bottom: 0.5em;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 500px;
+}
+
+#btnImg {
+  background: transparent;
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  top: 48%;
+  left: 50%;
+  font-weight: bold;
+  color: rgb(224, 224, 221);
+  font-size: 35px;
+}
+
+#btnImg:hover {
+  background-color: rgba(181, 180, 153, 0.14);
+}
+
+#cardImg {
+  background: transparent;
+  position: absolute;
+  border: 0;
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  top: 75%;
+  left: 50%;
+  width: 25rem;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(224, 224, 221);
+}
+.nav-item {
+  padding-right: 100px;
+  padding-left: 100px;
+  float: right;
+}
+
+.nav-item a:hover {
+  border-bottom: 3px solid red;
+}
+
+.nav-item a.active {
+  border-bottom: 3px solid red;
+}
+
+.gambar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Bagian Section*/
+
+.indexSection p {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+#seContainer {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+#btnSection {
+  float: right;
+  background: transparent;
+  border-color: rgba(81, 186, 227, 0.87);
+  color: rgba(81, 186, 227, 0.87);
+}
+
+#btnSection:hover {
+  background-color: rgba(81, 186, 227, 0.1);
+}
+
+.footer {
+  background-color: #232121;
+  height: 200px;
+}
+
+#fotContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 0px auto;
+  margin-bottom: 0px;
+  color: #eeebdd;
+}
+
+#fotContainer2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.checked {
+  color: orange;
+  font-size: 20px;
+}
+.fa {
+  font-size: 20px;
+}
+.row {
+  font-size: 20px;
+}
+#iconFooter {
+  padding-right: 50px;
+  padding-left: 13px;
+}
+.iconbl {
+  font-size: 35px;
+  color: #630000;
+  padding-right: 35px;
+  margin-right: 5px;
+}
+#iconbl{
+  font-size: 35px;
+  color: #630000;
+  padding-right: 35px;
+  margin-right: 5px;
+}
+
+#aFooter {
+  color: white;
+  font-size: 13px;
+  font-style: none;
+  padding-right: 45px;
+}
+
+#pFooter {
+  color: #eeebdd;
+  text-align: center;
+  padding-top: 20px;
+}
+
+ul li {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.fab {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.secAbout {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.secWisata {
+  padding: 100px;
+}
+
+.news {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  right: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 9px;
+}
+
+
+.news img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#bgheader {
+  background: black;
+}
+#name {
+  font-family: "Roboto Slab";
+  color: #eeebdd;
+  font-weight: bold;
+}
+#warnafitur {
+  color: #eeebdd;
+  font-weight: bold;
+  font-family: "Roboto Slab";
+}
+#juduldestinasi{
+	font-family:lucida handwriting;
+}
+#ketdestinasi{
+	font-family: fantasy;
+}
+#hotel {
+  border: 4px solid #630000;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 720px) {
+	header{
+		width:100%;
+	}
+	.footer{
+		width:100%;
+    
+	}
+	.card-img{
+	border:4px solid #F0FFF0;
+	border-radius:20px 20px 0px 0px;
+	}
+	#class{
+		height:120px;
+		border: solid #630000;
+		border-width:5px 14px 14px 14px;
+		border-radius:0px 0px 20px 20px;
+	}
+	
+}
+

@@ -1,0 +1,61 @@
+body {
+    height: 300px;
+}
+
+* {
+    transition: all 0.5s;
+}
+
+.top50 {
+    margin-top: 50%;
+}
+
+.bg-nav {
+    background: rgba(128, 128, 128, 0.446);
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.207);
+}
+
+.bg-nav:hover{
+    background: #e0220193;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .bg-nav {
+        margin: 20px;
+        padding: 10px;
+        width: 120px;
+        text-align: center;
+    }
+    .top50 {
+        margin-top: 25%;
+    }
+}
+
+.btn {
+    background: rgba(128, 128, 128, 0.446);
+}
+
+
+.btn:hover {
+    background: #e0220193;
+    cursor: pointer;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+ 
